@@ -1,0 +1,32 @@
+{
+  "name": "sleep-mcp",
+  "version": "1.0.0",
+  "description": "A Model Context Protocol (MCP) server that provides a simple sleep tool for LLMs to wait for specified durations. Built with FastMCP framework.",
+  "bin": {
+    "sleep-mcp": "dist/index.js"
+  },
+  "dependencies": {
+    "fastmcp": "^3.9.0"
+  },
+  "devDependencies": {
+    "tsx": "^4.20.3",
+    "typescript": "^5.8.3"
+  },
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "build": "tsc"
+  },
+  "keywords": [
+    "sleep",
+    "wait",
+    "mcp",
+    "fastmcp",
+    "agent",
+    "automation",
+    "typescript"
+  ],
+  "author": "erichung",
+  "license": "ISC",
+  "type": "module",
+  "homepage": "https://github.com/erichung9060/Sleep-MCP-Server-2.0#readme"
+}
